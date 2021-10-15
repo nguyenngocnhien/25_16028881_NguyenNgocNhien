@@ -91,7 +91,7 @@ public class Item extends AppCompatActivity {
                 Intent intent = new Intent(Item.this,MyService.class);
                 intent.putExtra("object_song",mSongs.get(currentIndex));
 
-                startService(intent);//chạy onCreate lần đầu rồi chạy onStartCommand
+                startService(intent);
 
             }
 
